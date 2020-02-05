@@ -1,0 +1,75 @@
+body{
+    background:url(https://img1.hmacg.cn/www/img/bg_head-20200125-bnj.jpg) repeat-x #f8f8f8;
+}
+body {
+    margin: auto;
+    max-width: 1280px;
+    width: 100%;
+    text-align: center;
+    background-repeat: round;
+    background-repeat-y: no-repeat;
+}
+.cl{
+    width: 978px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background: white;
+    margin-top: 50px;
+    opacity: 0.7;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+    display: table;
+    padding-bottom: 50px;
+}
+.logo{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.item{
+    width:50%;
+    height:130px;
+    border-radius: 5px;
+    float: left;
+    margin: 0 auto;
+}
+.itemsub{
+    width: 70%;
+    margin: 0 auto;
+}
+.avatar{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    float: left;
+}
+.info{
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.username{
+    font-size: 25px;
+    text-decoration: none;
+    color: #333;
+    width: 170px;
+    text-align: left;
+    float: left;
+    display:block;
+    white-space: nowrap;      /*超出的空白区域不换行*/
+    overflow: hidden;         /*超出隐藏*/
+    text-overflow: ellipsis;  /*文本超出显示省略号*/
+}
+p{
+    margin: 0;
+    /* float: left; */
+    text-align: left;
+}
+.all{
+    margin-top: 30px;
+}
+.foot{
+    color: red;
+    font-size: 19px;
+    padding:20px;
+ 
+
+}
